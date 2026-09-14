@@ -30,3 +30,4 @@ See the [debian-repo](https://candy-tools.github.io/debian-repo) for install ins
 | [dibs](https://github.com/candy-tools/dibs) | Check out / check in work directories over network drives or rsync endpoints, with a cooperative lock |
 | [go-deps-view](https://github.com/candy-tools/go-deps-view) | Visualize a Go module's package dependency graph in the browser |
 | [linux-candy-scripts](https://github.com/candy-tools/linux-candy-scripts) | Small Linux helpers (screenshots, public IP, port lookup, directory sizes) behind one `candy` command |
+| [govi](https://github.com/candy-tools/govi) | Minimalistic keyboard-driven video player based on mpv (libmpv) |
