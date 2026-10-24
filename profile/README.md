@@ -29,5 +29,10 @@ See the [debian-repo](https://candy-tools.github.io/debian-repo) for install ins
 | [todo](https://github.com/candy-tools/todo) | Keyboard-driven terminal TODO manager backed by plain Markdown files |
 | [dibs](https://github.com/candy-tools/dibs) | Check out / check in work directories over network drives or rsync endpoints, with a cooperative lock |
 | [go-deps-view](https://github.com/candy-tools/go-deps-view) | Visualize a Go module's package dependency graph in the browser |
-| [linux-candy-scripts](https://github.com/candy-tools/linux-candy-scripts) | Small Linux helpers (screenshots, public IP, port lookup, directory sizes) behind one `candy` command |
+| [linux-candy-scripts](https://github.com/candy-tools/linux-candy-scripts) | Small Linux helpers (public IP, port lookup, directory sizes) behind one `candy` command |
 | [govi](https://github.com/candy-tools/govi) | Minimalistic keyboard-driven video player based on mpv (libmpv) |
+| [trazo](https://github.com/candy-tools/trazo) | Keyboard-driven terminal text editor with a file sidebar and tabs |
+
+Every tool installs under its own name with either package manager, except
+`linux-candy-scripts`: it is Linux-only and ships as the `linux-candy` APT
+package. `govi` is packaged for Apple Silicon Macs and amd64 Linux only.
